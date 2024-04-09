@@ -1,0 +1,50 @@
+.Main{
+    padding: 0%;
+    margin: 0;
+    background: #000000;
+}
+
+.banner{
+width: 100%;
+margin: 0%;
+
+}
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner-img{
+    width: 100%;
+    height: 448px;
+    background-size: cover;
+    background-position: top;
+    padding: 15px 4%;   
+}
+
+.btns{
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 0.5rem 2rem;
+    background-color: rgba(51 ,51 , 51,.5);
+}
+.btns:hover{
+color: black;
+background-color: #efefef;
+}
+.description{
+    width: 45rem;
+    line-height: 1.3;
+    font-size: 1rem;
+    max-width: 360px;
+  
+}
+.Rowcards {
+    overflow: hidden; /* Hide the scrollbar */
+  }
+  
+  .Rowcards:hover {
+    overflow-y: hidden; /* Enable scrolling on hover */
+    overflow-x: hidden;
+  }

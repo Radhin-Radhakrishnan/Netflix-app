@@ -1,0 +1,40 @@
+.Rowcards{
+    margin:0;
+    padding: 0;
+    background-color: black;   
+}
+.Row{
+    margin-left: 20px;
+    background-color: black;
+}
+.text-white{
+    margin: 10px 10px;
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.img-fluid{
+    max-height: 200px;
+    margin-right: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+.smallPoster{
+    height: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.img-fluid:hover{
+  transform: scale(1.1);  
+  transition: .5s;
+}
+.smallPoster:hover{
+    transform: scale(1.1);  
+    transition: .5s;
+  } 

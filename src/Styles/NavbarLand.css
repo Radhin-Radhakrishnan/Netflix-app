@@ -1,0 +1,25 @@
+.navbarland {
+  padding-top: 20px;
+  margin-right: 10px;
+ }
+ .nav-logo {
+   height: 60px;
+   margin-left: 10px; /* Adjusted margin-left */
+   cursor: pointer;
+ }
+ 
+ .button {
+   border: 0;
+   outline: 0;
+   background: #db0001;
+   color: #fff;
+   padding: 7px 12px;
+   height: 45px;
+   font-size: 18px;
+   border-radius: 4px;
+   margin-left: 10px;
+ }
+ 
+ .rowland {
+   margin: 0;
+ }

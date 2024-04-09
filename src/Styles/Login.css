@@ -1,0 +1,30 @@
+.bg1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../Images/hero-img.jpg');
+    background-size: cover;
+    background-position: center;
+    /* padding: 10px 7%; */
+    position: relative;
+}
+.login-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 40%;
+    position: absolute;
+    padding-left: 110px;
+}
+.login-page{padding-left:-15px;}
+
+.cardbg{
+    background:rgba(14, 12, 12, 0.575);
+}
+.error-message{
+color: rgb(235, 0, 0);
+}
+.log-col{
+    margin: 0%;
+    width: 600px;
+}
+
